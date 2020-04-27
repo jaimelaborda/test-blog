@@ -1,4 +1,4 @@
-<div>
+<div class="mb-5">
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -8,7 +8,8 @@
 						class="icon-bar"></span> <span class="icon-bar"></span> <span
 						class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="/"> <i class="fa fa-barcode"></i>
+				<a class="navbar-brand" href="/"> 
+					The IoT Geek
 				</a>
 			</div>
 			<div id="navbar-collapse-menu" class="collapse navbar-collapse">
@@ -43,16 +44,9 @@
 			</div>
 		</div>
 	</nav>
-		{% if page.noimage %}
-		{% else %}
-		<img
-			alt="{{ page.title }}"
-			src="/assets/images/{{page.id}}/top.jpg" class="img-responsive">
-		{% endif %}
+	<img
+		alt="{{ page.title }}"
+		src="/assets/images/top.jpg" class="img-responsive header-top-image">
+	<!-- <div class="header-top-title">{{ page.title }}</div> -->
 
-	<div class="jumbotron  clearfix">
-
-		<h1 class="text-center">{{ page.title }}</h1>
-
-	</div>
 </div>

@@ -81,16 +81,8 @@ To achieve this we can set the following options within the transport connectors
  	<li>updateClusterFilter : a regular expression that allows to trigger client updates only on certain brokers that join the network. In our case for example we only want brokers from layer 2 to trigger reconnects.</li>
 </ul>
 
-{% highlight xml %}
-<transportConnectors>
-	<transportConnector
-		name="clients"
-		rebalanceClusterClients="true"
-		updateClusterClients="true"
-		updateClusterClientsOnRemove="true"
-		updateClusterFilter="amq-c.*"
-		uri="tcp://localhost:61620" />
-</transportConnectors>
+{% highlight c %}
+printf("Hola%d", cosa);
 {% endhighlight %}
 
  <p>
