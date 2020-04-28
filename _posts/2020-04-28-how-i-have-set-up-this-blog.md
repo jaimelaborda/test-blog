@@ -27,6 +27,12 @@ Nevertheless, this option is not for everybody. I consider that at least you nee
 
 \[INTRODUCIR IMAGEN DE COMO ESTÁ MONTADO EL SISTEMA]
 
+<!--StartFragment-->
+
+<https://www.netlifycms.org/docs/jekyll/>
+
+<!--EndFragment-->
+
 ## Jekyll
 
 There are a ton of static site generators this days. Almost every javascript framework or lenguaje have it own generator. Yo don't believe me? Take a look at [this ](https://www.staticgen.com/)and tell me. We have options for JS React framework ([Gatsby](https://www.gatsbyjs.org/), [Next.js](https://nextjs.org/)), pure Javascript ([Docusaurus](https://docusaurus.io/)), Go lenguaje ([Hugo](https://gohugo.io/)), Ruby ([Jekyll](https://jekyllrb.com/)), Python ([Sphinx](https://www.sphinx-doc.org/en/master/)) and much more. These are just one of the most used ones. Some are focused on generating documentation for developers, others are more for blog/web but the concept is exactly the same.
