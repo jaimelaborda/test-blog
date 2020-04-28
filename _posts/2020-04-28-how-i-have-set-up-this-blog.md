@@ -23,6 +23,10 @@ The most important thing when you set up a blog (at least a personal blog) is yo
 
 Nevertheless, this option is not for everybody. I consider that at least you need to have a little bit of knowing of what you are doing or at least you should have a good friend that set up all for you, because when it is already setyp, as you will see, it is really easy to mantain and to update.
 
+
+
+\[INTRODUCIR IMAGEN DE COMO ESTÁ MONTADO EL SISTEMA]
+
 ## Jekyll
 
 There are a ton of static site generators this days. Almost every javascript framework or lenguaje have it own generator. Yo don't believe me? Take a look at [this ](https://www.staticgen.com/)and tell me. We have options for JS React framework ([Gatsby](https://www.gatsbyjs.org/), [Next.js](https://nextjs.org/)), pure Javascript ([Docusaurus](https://docusaurus.io/)), Go lenguaje ([Hugo](https://gohugo.io/)), Ruby ([Jekyll](https://jekyllrb.com/)), Python ([Sphinx](https://www.sphinx-doc.org/en/master/)) and much more. These are just one of the most used ones. Some are focused on generating documentation for developers, others are more for blog/web but the concept is exactly the same.
@@ -31,7 +35,9 @@ And now the question is: Why Jekyll?... And the answer another time is *Why not?
 
 I really don't know why but the first thing it came up to my mind when I think about static site generator is Jekyll. Perhaps because it is (I think) one of the first to came along, perhaps it is because its integration with Github Pages... But for me talking about static site generator is talking about Jekyll. 
 
-How do they work? It is actually very simple: The user writes the content, normally, as a [Markdown ](https://en.wikipedia.org/wiki/Markdown)files, the static site generator, in this case Jekyll, take this Mardown files, and renders it to produce a complete, static HTML website ready to be deployed in your favourite hosting. Notice that this is plain HTML static files (plus css and js), so there is not interpreter, no PHP, no backend, no database, no nothing! So you just need a simple Apache that everybody gives for free nowaday that serve this files to the browser.
+How do they work? It is actually very simple: The user writes the content, normally, as a [Markdown ](https://en.wikipedia.org/wiki/Markdown)files, the static site generator, in this case Jekyll, take this Mardown files, and renders it to produce a complete, static HTML website ready to be deployed in your favourite hosting. Notice that this is plain HTML static files (plus css and js), so there is not interpreter, no PHP, no backend, no database, no nothing! So you just need a simple Apache that everybody gives for free nowaday that serve this files to the browser. This means that you will be able to host it in a [AWS S3](https://aws.amazon.com/s3/) bucket, a conventional shared hosting, [Github Pages](https://pages.github.com/) and so on.
+
+Jekyll is an open source static site generator written in [Ruby ](https://www.ruby-lang.org/en/)(don't worry, you don't need to know Ruby in order to understand Jekyll, I don't know nothing about Ruby, in fact making this article is the first time I searched it in Google). It has [MIT ](https://opensource.org/licenses/MIT)open source license so feel free to use for whaterever you want.
 
 Jekyll, and all the others static generators, use what is known as layouts o templates. This is normally a HTML like file that has some directives that are substituted by your content. Nevertheless this is not intended to be a tutorial on how to use Jekyll, if you are looking for more information, the documentation of Jekyll is pretty good: <https://jekyllrb.com/docs/>
 
@@ -41,8 +47,12 @@ Jekyll, and all the others static generators, use what is known as layouts o tem
 
 ## Netlify CMS
 
-Jekyll is very cool but it is perhaps a little geeky (well, that is what the blog is about, right?). Yes, we do love geeky things but I wanted to have a way to make it even simpler. So I was looking more to a Wordpress like approach and I find Netlify CMS
+Jekyll is very cool but it is perhaps a little geeky (well, that is what the blog is about, right?). Yes, we do love geeky things but I wanted to have a way to make it even simpler. So I was looking more to a Wordpress like approach and I find Netlify CMS. 
+
+[Netlify CMS](https://www.netlifycms.org/) is a Content Management System for static websites whose objective is precisely to provide a convenient and friendly editing interface for content.
 
 \[CONTAR AQUI COMO VA EL TEMA DEL CDN, QUE SE ACTUALIZA "SOLO"]
+
+\[CONTAR QUE TIENE PREVIEWS CUSTOMIZABLES, GESTION DE LOS POSTS, DE LAS PAGES, DEFINICIÓN DE COLLECTIONS, ETC]
 
 ## Netlify Continuous Deployment
