@@ -17,6 +17,7 @@ collections:
     - {label: "Updated Date", name: "date", widget: "datetime"}
     - {label: "Featured Image", name: "thumbnail", widget: "image", required: false, hint: "Feature image must be 1920x288px"}
     - {label: "Categories", name: "categories", widget: "string"}
+    - {label: "Tags", name: "tags", widget: "string", required: false, default: "[]", hint: "Example: [tag1 ,tag2, tag3]"}
     - {label: "Comments", name: "comments", default: false, widget: "boolean"}
     - {label: "Body", name: "body", widget: "markdown"}
 
@@ -27,6 +28,17 @@ collections:
     - file: "_pages/about.md"
       label: "About me"
       name: "about"
+      fields:
+        - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Link", name: "permalink", widget: "string"}
+        - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+        - {label: "Description", name: "description", widget: "string", required: false}
+        - {label: "Body", name: "body", widget: "markdown"}
+
+    - file: "_pages/contact.md"
+      label: "Contact"
+      name: "contact"
       fields:
         - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
         - {label: "Title", name: "title", widget: "string"}
