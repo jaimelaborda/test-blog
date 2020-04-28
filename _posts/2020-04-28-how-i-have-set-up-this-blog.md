@@ -27,11 +27,7 @@ Nevertheless, this option is not for everybody. I consider that at least you nee
 
 \[INTRODUCIR IMAGEN DE COMO ESTÁ MONTADO EL SISTEMA]
 
-<!--StartFragment-->
 
-<https://www.netlifycms.org/docs/jekyll/>
-
-<!--EndFragment-->
 
 ## Jekyll
 
@@ -62,3 +58,19 @@ Jekyll is very cool but it is perhaps a little geeky (well, that is what the blo
 \[CONTAR QUE TIENE PREVIEWS CUSTOMIZABLES, GESTION DE LOS POSTS, DE LAS PAGES, DEFINICIÓN DE COLLECTIONS, ETC]
 
 ## Netlify Continuous Deployment
+
+
+
+## Bibliography
+
+<!--StartFragment-->
+
+<https://www.netlifycms.org/docs/jekyll/>
+
+<!--EndFragment-->
+
+<!--StartFragment-->
+
+<https://blog.mvp-space.com/10-steps-to-configure-jekyll-with-netlify-as-a-cms-d754d73ea731>
+
+<!--EndFragment-->
