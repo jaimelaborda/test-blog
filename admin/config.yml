@@ -14,7 +14,19 @@ collections:
     - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
     - {label: "Title", name: "title", widget: "string"}
     - {label: "Publish Date", name: "date", widget: "datetime"}
-    - {label: "Featured Image", name: "thumbnail", widget: "image"}
+    - {label: "Featured Image", name: "thumbnail", widget: "image", required: "false"}
     - {label: "Categories", name: "categories", widget: "string"}
     - {label: "Comments", name: "comments", default: "false", widget: "boolean"}
+    - {label: "Body", name: "body", widget: "markdown"}
+
+- name: "pages"
+  label: "Page"
+  folder: "_pages"
+  slug: "{{slug}}"
+  fields:
+    - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
+    - {label: "Title", name: "title", widget: "string"}
+    - {label: "Link", name: "permalink", widget: "string", default: "/{{slug}}/"}
+    - {label: "Featured Image", name: "thumbnail", widget: "image", required: "false"}
+    - {label: "Description", name: "description", widget: "string", required: "false"}
     - {label: "Body", name: "body", widget: "markdown"}
