@@ -22,6 +22,7 @@ collections:
 - name: "pages"
   label: "Page"
   folder: "_pages"
+  create: true # Allow users to create new documents in this collection
   slug: "{{slug}}"
   fields:
     - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
