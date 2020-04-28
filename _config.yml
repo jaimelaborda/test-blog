@@ -15,6 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: The IoT Geek
 name: The IoT Geek
+author: Jaime Laborda
 description: 
   Internet of Things, LPWAN and Tech in general
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -36,7 +37,6 @@ exclude:
 include: ["_pages"]
 permalink: /posts/:title/
 excerpt_separator: <!--more-->
-author: http://www.linkedin.com/in/alainpham
 
 host: 0.0.0.0
 

@@ -101,6 +101,17 @@ h3:before {
 	font-size: 1.3em;
 }
 
+.navbar-logo {
+	width: 20%;
+	float: inline-start;
+	margin-right: 10px;
+
+}
+
+/* .navbar-text {
+	display: inline;
+} */
+
 .navbar-default .navbar-brand {
 	color: #ffffff;
 }
