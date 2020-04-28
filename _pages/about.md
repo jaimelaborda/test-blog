@@ -3,9 +3,13 @@ layout: default
 title: About
 permalink: /about/
 ---
-## Good day fellow readers and welcome to my tech blog!
+#### Hello fellow readers and welcome to my tech blog!
 
-This is the about me page, edit me!
+I'm the best person in the world and bla bla bla...
+
+
+
+You can follow me on social media and so on:
 
 <p>
 You can also follow me on social media:  <br>
