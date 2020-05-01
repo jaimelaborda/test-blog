@@ -48,13 +48,19 @@ Jekyll is very cool but it is perhaps a little geeky (well, that is what the blo
 
 [Netlify CMS](https://www.netlifycms.org/) is a Content Management System for static websites whose objective is precisely to provide a convenient and friendly editing interface for content. Cool!
 
-It really 
+It provides you with a menu with all the post you have, and you can edit it with the embedded editor. You will be able to view a customizable preview of your post with your own CSS (this has to be configured, but you can). 
 
 
 
 ![](/assets/images/netlify_cms.png){:.img-responsive}
 
-\[CONTAR AQUI COMO VA EL TEMA DEL CDN, QUE SE ACTUALIZA "SOLO"]
+But how can I include this in my Jekyll blog? Easy! You just need to add a directory with two files (literaly) and you have everything. An index.html that that builds the page and powers Netlify CMS together with a javascript CDN that takes care of the login authentication, and a config.yml that will describe and configure all the necesary things . (Off topic: I don't know if I love or hate yml files. The indentation sometimes is a little nightmare)
+
+I could have done a step-by-step guide to how I've put it together but I think it makes no sense as there are already good guides that I have follow on (Links below on the bibliography)
+
+Constructing the CMS with a CDN link has the advantage that you will never have to worry about updates! It will always be updated, at least in theory...
+
+
 
 \[CONTAR QUE TIENE PREVIEWS CUSTOMIZABLES, GESTION DE LOS POSTS, DE LAS PAGES, DEFINICIÓN DE COLLECTIONS, ETC]
 
@@ -68,20 +74,13 @@ Netlify CMS is a service so it has a free tier that, of course, has some limitat
 
 
 
+## Conclusions
 
+If you are looking to start up a blog I wonder you take a look to static websites generators
 
-
+And if you still want more I invite you to have a look to the ins and outs of this blog by visiting its Github repository at [github.com/jaimelaborda/theiotgeek](https://github.com/jaimelaborda/theiotgeek). Feel free to Fork the repo and to build in your own machine or with Netlify (should be ready to play). Also feel free to make me a pull request (I would greatly appreciate any help with my English or wathever thing you are not confortable with)
 
 ## Bibliography
 
-<!--StartFragment-->
-
-<https://www.netlifycms.org/docs/jekyll/>
-
-<!--EndFragment-->
-
-<!--StartFragment-->
-
-<https://blog.mvp-space.com/10-steps-to-configure-jekyll-with-netlify-as-a-cms-d754d73ea731>
-
-<!--EndFragment-->
+* Netlify CMS Jekyll integration (Official documentation): <https://www.netlifycms.org/docs/jekyll/>
+* 10 steps to configure Jekyll with Netlify as a CMS: <https://blog.mvp-space.com/10-steps-to-configure-jekyll-with-netlify-as-a-cms-d754d73ea731>
