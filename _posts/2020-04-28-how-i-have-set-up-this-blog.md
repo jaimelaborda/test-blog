@@ -3,6 +3,7 @@ layout: default
 title: How I have set up this blog
 published: 2020-04-28T19:00:11.778Z
 date: 2020-04-28T19:00:11.789Z
+thumbnail: /assets/images/first_post.jpg
 categories: web
 tags:
   - web
