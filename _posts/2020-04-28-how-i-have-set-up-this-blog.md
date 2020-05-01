@@ -52,7 +52,7 @@ It really
 
 
 
-![](/assets/images/netlify_cms.png){.img-responsive}
+![](/assets/images/netlify_cms.png){:.img-responsive}
 
 \[CONTAR AQUI COMO VA EL TEMA DEL CDN, QUE SE ACTUALIZA "SOLO"]
 
