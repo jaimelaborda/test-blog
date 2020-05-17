@@ -3,5 +3,4 @@ layout: default
 title: Contact
 permalink: /contact/
 ---
-
-Test página de contacto
+Send me an email at [jaimelaborda@gmail.com](mailto:jaimelaborda@gmail.com)
